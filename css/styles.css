@@ -1,0 +1,376 @@
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-text-size-adjust: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Quicksand;
+    background-color: #F8AC3C;
+    color: white;
+}
+body > div {
+    font-size: 4.2vh;
+}
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+header > p {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 1.5vh 3vw;
+    color: white;
+    font-size: 4.2vh;
+}
+h1 {
+    font-size: 6vh;
+    width: 100%;
+}
+a   {
+    color: white;
+}
+@media only screen and (min-width: 1281px) {
+    body {
+        justify-content: center;
+        align-items: center;
+    }
+    /*body > div {
+        height: 30%;
+        width: 30%;
+    }*/
+    body > div > img {
+        display: block;
+        margin: 25vh auto;
+        height: 50vh;
+    }
+    header > nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    header > img {
+        display: none;
+    }
+    ul {
+        display: inline-block;
+        list-style-type: none;
+        padding: 0vh 3vw;
+    }
+    li {
+        border: 1px solid transparent;
+        border-radius: 1vh;
+        float: left;
+        padding: 1vh 1.2vw;
+        margin: 0;
+    }
+    li:hover {
+        border: 1px solid white;
+        border-radius: 1vh;
+        -webkit-transition-duration: 1s;
+             -o-transition-duration: 1s;
+                transition-duration: 1s;
+    }
+    li > a {
+        color: white;
+        font-size: 2.2vh;
+        text-decoration: none;
+    }
+    footer {
+        margin: 3vh 2vw;
+    }
+    .date-time-box {
+        text-align: right;
+    }
+    .image-box {
+        height: 100%;
+        width: 40%;
+    }
+    .team {
+        margin-top: 6vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+            flex-flow: wrap;
+        padding: 0 16vw;
+        width: 100%;
+        text-align: center;
+    }
+    .team > div {
+        width: 20vw;
+        margin: 1vw;
+    }
+    .team > div > img {
+        border-radius: 50%;
+        height: auto;
+        width: 50%;
+    }
+    .team > div > h2 {
+        font-size: 3vh;
+    }
+    .team > div > p {
+        font-size: 2.2vh;
+    }
+    .sponsors   {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+            flex-flow: wrap;
+        margin: 6vh 0vw;
+        padding: 0 14vw;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    .sponsors > li {
+        padding: 1vh 1vw;
+        flex-basis: 25%;
+    }
+    .sponsors > li > a > img {
+        height: auto;
+        width: 100%;
+    }
+    .schedule   {
+        margin-top: 6vh;
+        width: 100%;
+        text-align: center;
+    }
+    table {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5vh;
+        text-align: left;
+        color: white;
+        font-size: 20px;
+    }
+    td  {
+        padding: 2vh 2vw;
+    }
+    .table_heading  {
+        border-bottom: 1px solid white;
+        padding: 0 2vw;
+    }
+    .section-heading {
+        padding-top: 50px;
+        font-size: 400%
+    }
+    .faq {
+        margin-top: 6vh;
+        width: 80%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        justify-content: center;
+    }
+    .faq > h1   {
+        text-align: center;
+    }
+    .faq>div {
+        font-size: 1.5vw;
+        padding: 1vw;
+        width: 29%;
+    }
+    .faq>div>p {
+        font-size: 1.25vw;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    body {
+        -ms-flex-direction: column;
+            flex-direction: column;
+        justify-content: center;
+    }
+    body > div {
+        text-align: center;
+    }
+    body > div > div {
+        height: 15vh;
+    }
+    body > div > img {
+        display: block;
+        margin: 5vh auto;
+        height: 40vh;
+    }
+    header > nav {
+        position: fixed;
+        padding-top: 8.2vh;
+        top: 0vh;
+        height: 63vh;
+        width: 100%;
+        border-bottom: 0.5vh solid white;
+        background-color: #F8AC3C;
+    }
+    header  {
+        background-color: #F8AC3C;
+    }
+    header > img {
+        height: 6.2vh;
+        margin: 1vh 5vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    #Menu > ul {
+        display: inline-block;
+        list-style-type: none;
+        padding: 0vh 5vw;
+    }
+    #Menu > ul > li {
+        border-radius: 2vh;
+        width: 82vw;
+        padding: 3vh 3vw;
+        margin: 0;
+    }
+    #Menu > ul > li:hover {
+        background-color: #E58910;
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+    }
+    #Menu > ul > li > a {
+        color: white;
+        font-size: 3vh;
+        text-decoration: none;
+    }
+    footer {
+        margin: 1vh 3vw;
+    }
+    .collapsed {
+        display: none;
+    }
+    .date-time-box {
+        height: 25vh;
+    }
+    .image-box {
+        height: 50vh;
+    }
+    .location-box {
+        height: 25vh;
+    }
+    .team {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+        min-height: 100%;
+        margin: 6vh 0;
+        width: 100%;
+        text-align: center;
+    }
+    .team > div {
+        height: calc(25% + 2vh);
+        margin: 3vh 7vw;
+    }
+    .team > div > img {
+        border-radius: 50%;
+        height: auto;
+        width: calc(30% + 3vh);
+    }
+    .team > div > h2 {
+        margin: 0;
+        font-size: calc(25% + 3vh);
+    }
+    .team > div > p {
+        margin-bottom: 0;
+        font-size: calc(25% + 2vh);
+    }
+    .sponsors {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 6vh 0;
+        left: 0;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    .sponsors > h1  {
+        text-align: center;
+        left: 0;
+        width: 100%;
+        margin-right: 2vw;
+    }
+    .sponsors > li > a > img {
+        width: 80%;
+        padding-top: 1vh;
+        padding-left: 4vw;
+    }
+    .schedule   {
+        margin-top: 6vh;
+        width: 100%;
+        text-align: center;
+    }
+    table {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5vh;
+        text-align: left;
+        color: white;
+        font-size: 3vh;
+    }
+    td  {
+        padding: 2vh 2vw;
+    }
+    .table_heading  {
+        border-bottom: 1px solid white;
+        padding: 0 2vw;
+    }
+    .section-heading {
+        padding-top: 5vh;
+        font-size: 400%
+    }
+    .faq {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+        min-height: 100%;
+        margin: 6vh 0;
+        width: 100%;
+        text-align: center;
+    }
+    .links {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+        min-height: 100%;
+        margin: 6vh 0;
+        width: 100%;
+        text-align: center;
+    }
+    .faq > div {
+        height: calc(25% + 1vh);
+        margin: 3vh 7vw;
+        width: 80%;
+    }
+    .faq>div>p {
+        font-size: 3.5vw;
+    }
+}
+footer {
+    display: block;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+footer > a > img {
+    height: auto;
+    width: 6vh;
+    margin: 0vh 0.2vw;
+}
